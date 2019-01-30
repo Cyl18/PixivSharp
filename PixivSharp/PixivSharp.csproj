@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <Authors>Cyl18</Authors>
+    <Company>Cyl18</Company>
+    <Description>C# Pixiv API Client (Not official, use at your own risk)</Description>
+    <Copyright>Cyl18</Copyright>
+    <PackageLicenseUrl>https://github.com/Cyl18/PixivSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Cyl18/PixivSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Cyl18/PixivSharp</RepositoryUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/14993992</PackageIconUrl>
+    <Version>1.0.2</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AnimatedGif" Version="1.0.3" />
+    <PackageReference Include="ConfigureAwait.Fody" Version="3.0.0">
+      <IsTool>true</IsTool>
+    </PackageReference>
+    <PackageReference Include="GammaLibrary" Version="1.1.7" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
